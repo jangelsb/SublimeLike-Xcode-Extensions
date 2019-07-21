@@ -34,7 +34,7 @@
 					<key>XCSourceEditorCommandIdentifier</key>
 					<string>$(PRODUCT_BUNDLE_IDENTIFIER).DuplicateSelectionsCommand</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>Convert Selection(s) to UPPERCASE</string>
+					<string>Duplicate Selection(s)</string>
 				</dict>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>

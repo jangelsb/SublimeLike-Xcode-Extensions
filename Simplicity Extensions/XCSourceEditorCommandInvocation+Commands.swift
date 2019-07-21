@@ -54,7 +54,41 @@ extension XCSourceEditorCommandInvocation {
     }
     
     func duplicateSelection(for selection: XCSourceTextRange) -> Void {
+        let startLineIndex = selection.start.line
+        let startLineCol = selection.start.column
+        let endLineIndex = selection.end.line
+        let endLineCol = selection.end.column
+        let lines = self.buffer.lines
         
+        var lineIndex = startLineIndex
+        var line = lines[lineIndex] as! NSString
+        
+        
+        if startLineIndex < endLineIndex { // multi line....
+            
+            if endLineIndex - startLineIndex < 2 && selection.start.column == 0 && selection.end.column == 0 { // a single full line
+    
+                self.buffer.lines.insert(line, at: endLineIndex)
+                
+                selection.start.line += 1
+                selection.end.line += 1
+                
+            } else { // multi line inter-col - rip
+                
+                print("Oh no")
+            }
+        } else { // single line
+            
+            let rangeOfContent = NSRange(location: startLineCol, length: endLineCol - startLineCol)
+            let content = line.substring(with: rangeOfContent)
+            
+            let lineMS = NSMutableString(string: line)
+            lineMS.insert(content, at: endLineCol)
+            self.buffer.lines[lineIndex] =  lineMS
+            
+            selection.start.column += content.count
+            selection.end.column += content.count
+        }
     }
 }
 
