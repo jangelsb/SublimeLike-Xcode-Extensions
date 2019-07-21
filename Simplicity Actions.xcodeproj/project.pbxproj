@@ -12,6 +12,13 @@
 		EAE9F09A22E37ECD008E4957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE9F09922E37ECD008E4957 /* Assets.xcassets */; };
 		EAE9F09D22E37ECD008E4957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE9F09B22E37ECD008E4957 /* Main.storyboard */; };
 		EAE9F0A922E37ECD008E4957 /* Simplicity_ActionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9F0A822E37ECD008E4957 /* Simplicity_ActionsTests.swift */; };
+		EAE9F0BA22E37EF2008E4957 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE9F0B922E37EF2008E4957 /* Cocoa.framework */; };
+		EAE9F0BD22E37EF2008E4957 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9F0BC22E37EF2008E4957 /* SourceEditorExtension.swift */; };
+		EAE9F0BF22E37EF2008E4957 /* ToUpperCaseCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9F0BE22E37EF2008E4957 /* ToUpperCaseCommand.swift */; };
+		EAE9F0C422E37EF2008E4957 /* Simplicity Extensions.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EAE9F0B722E37EF2008E4957 /* Simplicity Extensions.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EAE9F0CA22E51863008E4957 /* XCSourceEditorCommandInvocation+Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9F0C922E51863008E4957 /* XCSourceEditorCommandInvocation+Commands.swift */; };
+		EAE9F0CD22E51BF0008E4957 /* ToLowerCaseCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9F0CC22E51BF0008E4957 /* ToLowerCaseCommand.swift */; };
+		EAE9F0CF22E51CE2008E4957 /* DuplicateSelectionsCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9F0CE22E51CE2008E4957 /* DuplicateSelectionsCommand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,7 +29,28 @@
 			remoteGlobalIDString = EAE9F09122E37ECC008E4957;
 			remoteInfo = "Simplicity Actions";
 		};
+		EAE9F0C222E37EF2008E4957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAE9F08A22E37ECC008E4957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAE9F0B622E37EF2008E4957;
+			remoteInfo = "Simplicity Extensions";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EAE9F0C822E37EF2008E4957 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EAE9F0C422E37EF2008E4957 /* Simplicity Extensions.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		EAE9F09222E37ECC008E4957 /* Simplicity Actions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simplicity Actions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,6 +63,15 @@
 		EAE9F0A422E37ECD008E4957 /* Simplicity ActionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simplicity ActionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE9F0A822E37ECD008E4957 /* Simplicity_ActionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simplicity_ActionsTests.swift; sourceTree = "<group>"; };
 		EAE9F0AA22E37ECD008E4957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE9F0B722E37EF2008E4957 /* Simplicity Extensions.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Simplicity Extensions.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE9F0B922E37EF2008E4957 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EAE9F0BC22E37EF2008E4957 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		EAE9F0BE22E37EF2008E4957 /* ToUpperCaseCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToUpperCaseCommand.swift; sourceTree = "<group>"; };
+		EAE9F0C022E37EF2008E4957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE9F0C122E37EF2008E4957 /* Simplicity_Extensions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Simplicity_Extensions.entitlements; sourceTree = "<group>"; };
+		EAE9F0C922E51863008E4957 /* XCSourceEditorCommandInvocation+Commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCSourceEditorCommandInvocation+Commands.swift"; sourceTree = "<group>"; };
+		EAE9F0CC22E51BF0008E4957 /* ToLowerCaseCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToLowerCaseCommand.swift; sourceTree = "<group>"; };
+		EAE9F0CE22E51CE2008E4957 /* DuplicateSelectionsCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuplicateSelectionsCommand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +89,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAE9F0B422E37EF2008E4957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE9F0BA22E37EF2008E4957 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -60,6 +105,8 @@
 			children = (
 				EAE9F09422E37ECC008E4957 /* Simplicity Actions */,
 				EAE9F0A722E37ECD008E4957 /* Simplicity ActionsTests */,
+				EAE9F0BB22E37EF2008E4957 /* Simplicity Extensions */,
+				EAE9F0B822E37EF2008E4957 /* Frameworks */,
 				EAE9F09322E37ECC008E4957 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +116,7 @@
 			children = (
 				EAE9F09222E37ECC008E4957 /* Simplicity Actions.app */,
 				EAE9F0A422E37ECD008E4957 /* Simplicity ActionsTests.xctest */,
+				EAE9F0B722E37EF2008E4957 /* Simplicity Extensions.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +143,36 @@
 			path = "Simplicity ActionsTests";
 			sourceTree = "<group>";
 		};
+		EAE9F0B822E37EF2008E4957 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAE9F0B922E37EF2008E4957 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAE9F0BB22E37EF2008E4957 /* Simplicity Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EAE9F0CB22E51AE0008E4957 /* SourceEditorCommands */,
+				EAE9F0C922E51863008E4957 /* XCSourceEditorCommandInvocation+Commands.swift */,
+				EAE9F0BC22E37EF2008E4957 /* SourceEditorExtension.swift */,
+				EAE9F0C022E37EF2008E4957 /* Info.plist */,
+				EAE9F0C122E37EF2008E4957 /* Simplicity_Extensions.entitlements */,
+			);
+			path = "Simplicity Extensions";
+			sourceTree = "<group>";
+		};
+		EAE9F0CB22E51AE0008E4957 /* SourceEditorCommands */ = {
+			isa = PBXGroup;
+			children = (
+				EAE9F0BE22E37EF2008E4957 /* ToUpperCaseCommand.swift */,
+				EAE9F0CC22E51BF0008E4957 /* ToLowerCaseCommand.swift */,
+				EAE9F0CE22E51CE2008E4957 /* DuplicateSelectionsCommand.swift */,
+			);
+			path = SourceEditorCommands;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -105,10 +183,12 @@
 				EAE9F08E22E37ECC008E4957 /* Sources */,
 				EAE9F08F22E37ECC008E4957 /* Frameworks */,
 				EAE9F09022E37ECC008E4957 /* Resources */,
+				EAE9F0C822E37EF2008E4957 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EAE9F0C322E37EF2008E4957 /* PBXTargetDependency */,
 			);
 			name = "Simplicity Actions";
 			productName = "Simplicity Actions";
@@ -133,6 +213,23 @@
 			productReference = EAE9F0A422E37ECD008E4957 /* Simplicity ActionsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		EAE9F0B622E37EF2008E4957 /* Simplicity Extensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE9F0C522E37EF2008E4957 /* Build configuration list for PBXNativeTarget "Simplicity Extensions" */;
+			buildPhases = (
+				EAE9F0B322E37EF2008E4957 /* Sources */,
+				EAE9F0B422E37EF2008E4957 /* Frameworks */,
+				EAE9F0B522E37EF2008E4957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simplicity Extensions";
+			productName = "Simplicity Extensions";
+			productReference = EAE9F0B722E37EF2008E4957 /* Simplicity Extensions.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +246,9 @@
 					EAE9F0A322E37ECD008E4957 = {
 						CreatedOnToolsVersion = 10.2.1;
 						TestTargetID = EAE9F09122E37ECC008E4957;
+					};
+					EAE9F0B622E37EF2008E4957 = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
@@ -167,6 +267,7 @@
 			targets = (
 				EAE9F09122E37ECC008E4957 /* Simplicity Actions */,
 				EAE9F0A322E37ECD008E4957 /* Simplicity ActionsTests */,
+				EAE9F0B622E37EF2008E4957 /* Simplicity Extensions */,
 			);
 		};
 /* End PBXProject section */
@@ -182,6 +283,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EAE9F0A222E37ECD008E4957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE9F0B522E37EF2008E4957 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,6 +316,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAE9F0B322E37EF2008E4957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE9F0BD22E37EF2008E4957 /* SourceEditorExtension.swift in Sources */,
+				EAE9F0BF22E37EF2008E4957 /* ToUpperCaseCommand.swift in Sources */,
+				EAE9F0CD22E51BF0008E4957 /* ToLowerCaseCommand.swift in Sources */,
+				EAE9F0CA22E51863008E4957 /* XCSourceEditorCommandInvocation+Commands.swift in Sources */,
+				EAE9F0CF22E51CE2008E4957 /* DuplicateSelectionsCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -215,6 +335,11 @@
 			isa = PBXTargetDependency;
 			target = EAE9F09122E37ECC008E4957 /* Simplicity Actions */;
 			targetProxy = EAE9F0A522E37ECD008E4957 /* PBXContainerItemProxy */;
+		};
+		EAE9F0C322E37EF2008E4957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAE9F0B622E37EF2008E4957 /* Simplicity Extensions */;
+			targetProxy = EAE9F0C222E37EF2008E4957 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -348,6 +473,7 @@
 		EAE9F0AE22E37ECD008E4957 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Simplicity Actions/Simplicity_Actions.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -367,6 +493,7 @@
 		EAE9F0AF22E37ECD008E4957 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Simplicity Actions/Simplicity_Actions.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -425,6 +552,46 @@
 			};
 			name = Release;
 		};
+		EAE9F0C622E37EF2008E4957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Simplicity Extensions/Simplicity_Extensions.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YFZ5LYLJPF;
+				INFOPLIST_FILE = "Simplicity Extensions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jangelsb.Simplicity-Actions.Simplicity-Extensions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EAE9F0C722E37EF2008E4957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Simplicity Extensions/Simplicity_Extensions.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YFZ5LYLJPF;
+				INFOPLIST_FILE = "Simplicity Extensions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jangelsb.Simplicity-Actions.Simplicity-Extensions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -451,6 +618,15 @@
 			buildConfigurations = (
 				EAE9F0B122E37ECD008E4957 /* Debug */,
 				EAE9F0B222E37ECD008E4957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE9F0C522E37EF2008E4957 /* Build configuration list for PBXNativeTarget "Simplicity Extensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE9F0C622E37EF2008E4957 /* Debug */,
+				EAE9F0C722E37EF2008E4957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

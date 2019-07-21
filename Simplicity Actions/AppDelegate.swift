@@ -13,8 +13,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
 
+        // INSERT CODE HERE TO INITIALIZE YOUR APPLICATION
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
@@ -23,4 +23,3 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
 }
-
