@@ -1,6 +1,8 @@
 # SublimeLike-Xcode-Extensions
 Adds Sublime-like text manipulation to Xcode via Xcode Extension
 
+![app icon](https://github.com/jangelsb/SublimeLike-Xcode-Extensions/raw/master/SublimeLikeAdditions/Assets.xcassets/AppIcon.appiconset/512pt.png)
+
 **Features**:
 -
 - Duplicate Selection(s)
