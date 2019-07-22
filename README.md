@@ -16,3 +16,19 @@ TODO list:
 - Better icon lol
 - And more as I think of them
 
+
+Installation
+-
+- Download latest *SublimeLikeAdditions* package from the [Releases](https://github.com/jangelsb/SublimeLike-Xcode-Extensions/releases).
+- Copy *SublimeLikeAdditions* to your *Applications* folder.
+- Launch *SublimeLikeAdditions* once. You can close it immediately afterwards.
+- Go to <kbd>System Preferences</kbd> > <kbd>Extensions</kbd> > <kbd>Xcode Source Editor</kbd> > select <kbd>SublimeLikeAdditions</kbd>
+
+Setting Hotkeys in Xcode
+-
+- Open Xcode
+- Go to Xcode > Preferences > Key Bindings
+- Type *'sublime'* in search field
+- Assign <kbd>⌃</kbd> + <kbd>⌘</kbd> + <kbd>⎇</kbd> + <kbd>E</kbd> to the *Undo Last Multi Cursor* command
+- Assign <kbd>⎇</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd> to the *Duplicate Selection(s)* command
+
