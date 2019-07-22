@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAC070F122E561C900489327 /* UndoLastMultiCursorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC070F022E561C900489327 /* UndoLastMultiCursorCommand.swift */; };
+		EAE9F09622E37ECC008E4957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9F09522E37ECC008E4957 /* AppDelegate.swift */; };
+		EAE9F09822E37ECC008E4957 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9F09722E37ECC008E4957 /* ViewController.swift */; };
+		EAE9F09A22E37ECD008E4957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE9F09922E37ECD008E4957 /* Assets.xcassets */; };
+		EAE9F09D22E37ECD008E4957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE9F09B22E37ECD008E4957 /* Main.storyboard */; };
+		EAE9F0A922E37ECD008E4957 /* SublimeLikeExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9F0A822E37ECD008E4957 /* SublimeLikeExtensionsTests.swift */; };
+		EAE9F0BA22E37EF2008E4957 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE9F0B922E37EF2008E4957 /* Cocoa.framework */; };
+		EAE9F0BD22E37EF2008E4957 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9F0BC22E37EF2008E4957 /* SourceEditorExtension.swift */; };
+		EAE9F0BF22E37EF2008E4957 /* ToUpperCaseCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9F0BE22E37EF2008E4957 /* ToUpperCaseCommand.swift */; };
+		EAE9F0C422E37EF2008E4957 /* SublimeLike Xcode Extensions.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EAE9F0B722E37EF2008E4957 /* SublimeLike Xcode Extensions.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EAE9F0CA22E51863008E4957 /* XCSourceEditorCommandInvocation+Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9F0C922E51863008E4957 /* XCSourceEditorCommandInvocation+Commands.swift */; };
+		EAE9F0CD22E51BF0008E4957 /* ToLowerCaseCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9F0CC22E51BF0008E4957 /* ToLowerCaseCommand.swift */; };
+		EAE9F0CF22E51CE2008E4957 /* DuplicateSelectionsCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9F0CE22E51CE2008E4957 /* DuplicateSelectionsCommand.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAE9F0A522E37ECD008E4957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAE9F08A22E37ECC008E4957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAE9F09122E37ECC008E4957;
+			remoteInfo = "Simplicity Actions";
+		};
+		EAE9F0C222E37EF2008E4957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAE9F08A22E37ECC008E4957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAE9F0B622E37EF2008E4957;
+			remoteInfo = "Simplicity Extensions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EAE9F0C822E37EF2008E4957 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EAE9F0C422E37EF2008E4957 /* SublimeLike Xcode Extensions.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EABC5B5222E5738300183C98 /* SublimeLikeAdditions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SublimeLikeAdditions.entitlements; sourceTree = "<group>"; };
+		EABC5B5322E5739500183C98 /* SublimeLike_Xcode_Extensions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SublimeLike_Xcode_Extensions.entitlements; sourceTree = "<group>"; };
+		EAC070F022E561C900489327 /* UndoLastMultiCursorCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UndoLastMultiCursorCommand.swift; sourceTree = "<group>"; };
+		EAE9F09222E37ECC008E4957 /* SublimeLikeAdditions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SublimeLikeAdditions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE9F09522E37ECC008E4957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAE9F09722E37ECC008E4957 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAE9F09922E37ECD008E4957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAE9F09C22E37ECD008E4957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAE9F09E22E37ECD008E4957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE9F0A422E37ECD008E4957 /* SublimeLikeExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SublimeLikeExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE9F0A822E37ECD008E4957 /* SublimeLikeExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SublimeLikeExtensionsTests.swift; sourceTree = "<group>"; };
+		EAE9F0AA22E37ECD008E4957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE9F0B722E37EF2008E4957 /* SublimeLike Xcode Extensions.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SublimeLike Xcode Extensions.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE9F0B922E37EF2008E4957 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EAE9F0BC22E37EF2008E4957 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		EAE9F0BE22E37EF2008E4957 /* ToUpperCaseCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToUpperCaseCommand.swift; sourceTree = "<group>"; };
+		EAE9F0C022E37EF2008E4957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE9F0C922E51863008E4957 /* XCSourceEditorCommandInvocation+Commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCSourceEditorCommandInvocation+Commands.swift"; sourceTree = "<group>"; };
+		EAE9F0CC22E51BF0008E4957 /* ToLowerCaseCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToLowerCaseCommand.swift; sourceTree = "<group>"; };
+		EAE9F0CE22E51CE2008E4957 /* DuplicateSelectionsCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuplicateSelectionsCommand.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAE9F08F22E37ECC008E4957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE9F0A122E37ECD008E4957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE9F0B422E37EF2008E4957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE9F0BA22E37EF2008E4957 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAE9F08922E37ECC008E4957 = {
+			isa = PBXGroup;
+			children = (
+				EAE9F09422E37ECC008E4957 /* SublimeLikeAdditions */,
+				EAE9F0A722E37ECD008E4957 /* SublimeLikeExtensionsTests */,
+				EAE9F0BB22E37EF2008E4957 /* SublimeLike Xcode Extensions */,
+				EAE9F0B822E37EF2008E4957 /* Frameworks */,
+				EAE9F09322E37ECC008E4957 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAE9F09322E37ECC008E4957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAE9F09222E37ECC008E4957 /* SublimeLikeAdditions.app */,
+				EAE9F0A422E37ECD008E4957 /* SublimeLikeExtensionsTests.xctest */,
+				EAE9F0B722E37EF2008E4957 /* SublimeLike Xcode Extensions.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAE9F09422E37ECC008E4957 /* SublimeLikeAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				EAE9F09522E37ECC008E4957 /* AppDelegate.swift */,
+				EAE9F09722E37ECC008E4957 /* ViewController.swift */,
+				EAE9F09922E37ECD008E4957 /* Assets.xcassets */,
+				EAE9F09B22E37ECD008E4957 /* Main.storyboard */,
+				EAE9F09E22E37ECD008E4957 /* Info.plist */,
+				EABC5B5222E5738300183C98 /* SublimeLikeAdditions.entitlements */,
+			);
+			path = SublimeLikeAdditions;
+			sourceTree = "<group>";
+		};
+		EAE9F0A722E37ECD008E4957 /* SublimeLikeExtensionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAE9F0A822E37ECD008E4957 /* SublimeLikeExtensionsTests.swift */,
+				EAE9F0AA22E37ECD008E4957 /* Info.plist */,
+			);
+			path = SublimeLikeExtensionsTests;
+			sourceTree = "<group>";
+		};
+		EAE9F0B822E37EF2008E4957 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAE9F0B922E37EF2008E4957 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAE9F0BB22E37EF2008E4957 /* SublimeLike Xcode Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EAE9F0CB22E51AE0008E4957 /* SourceEditorCommands */,
+				EAE9F0C922E51863008E4957 /* XCSourceEditorCommandInvocation+Commands.swift */,
+				EAE9F0BC22E37EF2008E4957 /* SourceEditorExtension.swift */,
+				EAE9F0C022E37EF2008E4957 /* Info.plist */,
+				EABC5B5322E5739500183C98 /* SublimeLike_Xcode_Extensions.entitlements */,
+			);
+			path = "SublimeLike Xcode Extensions";
+			sourceTree = "<group>";
+		};
+		EAE9F0CB22E51AE0008E4957 /* SourceEditorCommands */ = {
+			isa = PBXGroup;
+			children = (
+				EAE9F0BE22E37EF2008E4957 /* ToUpperCaseCommand.swift */,
+				EAE9F0CC22E51BF0008E4957 /* ToLowerCaseCommand.swift */,
+				EAE9F0CE22E51CE2008E4957 /* DuplicateSelectionsCommand.swift */,
+				EAC070F022E561C900489327 /* UndoLastMultiCursorCommand.swift */,
+			);
+			path = SourceEditorCommands;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAE9F09122E37ECC008E4957 /* SublimeLikeAdditions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE9F0AD22E37ECD008E4957 /* Build configuration list for PBXNativeTarget "SublimeLikeAdditions" */;
+			buildPhases = (
+				EAE9F08E22E37ECC008E4957 /* Sources */,
+				EAE9F08F22E37ECC008E4957 /* Frameworks */,
+				EAE9F09022E37ECC008E4957 /* Resources */,
+				EAE9F0C822E37EF2008E4957 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAE9F0C322E37EF2008E4957 /* PBXTargetDependency */,
+			);
+			name = SublimeLikeAdditions;
+			productName = "Simplicity Actions";
+			productReference = EAE9F09222E37ECC008E4957 /* SublimeLikeAdditions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAE9F0A322E37ECD008E4957 /* SublimeLikeExtensionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE9F0B022E37ECD008E4957 /* Build configuration list for PBXNativeTarget "SublimeLikeExtensionsTests" */;
+			buildPhases = (
+				EAE9F0A022E37ECD008E4957 /* Sources */,
+				EAE9F0A122E37ECD008E4957 /* Frameworks */,
+				EAE9F0A222E37ECD008E4957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAE9F0A622E37ECD008E4957 /* PBXTargetDependency */,
+			);
+			name = SublimeLikeExtensionsTests;
+			productName = "Simplicity ActionsTests";
+			productReference = EAE9F0A422E37ECD008E4957 /* SublimeLikeExtensionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAE9F0B622E37EF2008E4957 /* SublimeLike Xcode Extensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE9F0C522E37EF2008E4957 /* Build configuration list for PBXNativeTarget "SublimeLike Xcode Extensions" */;
+			buildPhases = (
+				EAE9F0B322E37EF2008E4957 /* Sources */,
+				EAE9F0B422E37EF2008E4957 /* Frameworks */,
+				EAE9F0B522E37EF2008E4957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SublimeLike Xcode Extensions";
+			productName = "Simplicity Extensions";
+			productReference = EAE9F0B722E37EF2008E4957 /* SublimeLike Xcode Extensions.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAE9F08A22E37ECC008E4957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Josh Angelsberg";
+				TargetAttributes = {
+					EAE9F09122E37ECC008E4957 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					EAE9F0A322E37ECD008E4957 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EAE9F09122E37ECC008E4957;
+					};
+					EAE9F0B622E37EF2008E4957 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EAE9F08D22E37ECC008E4957 /* Build configuration list for PBXProject "SublimeLikeExtensions" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAE9F08922E37ECC008E4957;
+			productRefGroup = EAE9F09322E37ECC008E4957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAE9F09122E37ECC008E4957 /* SublimeLikeAdditions */,
+				EAE9F0A322E37ECD008E4957 /* SublimeLikeExtensionsTests */,
+				EAE9F0B622E37EF2008E4957 /* SublimeLike Xcode Extensions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAE9F09022E37ECC008E4957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE9F09A22E37ECD008E4957 /* Assets.xcassets in Resources */,
+				EAE9F09D22E37ECD008E4957 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE9F0A222E37ECD008E4957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE9F0B522E37EF2008E4957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAE9F08E22E37ECC008E4957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE9F09822E37ECC008E4957 /* ViewController.swift in Sources */,
+				EAE9F09622E37ECC008E4957 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE9F0A022E37ECD008E4957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE9F0A922E37ECD008E4957 /* SublimeLikeExtensionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE9F0B322E37EF2008E4957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE9F0BD22E37EF2008E4957 /* SourceEditorExtension.swift in Sources */,
+				EAE9F0BF22E37EF2008E4957 /* ToUpperCaseCommand.swift in Sources */,
+				EAC070F122E561C900489327 /* UndoLastMultiCursorCommand.swift in Sources */,
+				EAE9F0CD22E51BF0008E4957 /* ToLowerCaseCommand.swift in Sources */,
+				EAE9F0CA22E51863008E4957 /* XCSourceEditorCommandInvocation+Commands.swift in Sources */,
+				EAE9F0CF22E51CE2008E4957 /* DuplicateSelectionsCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAE9F0A622E37ECD008E4957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAE9F09122E37ECC008E4957 /* SublimeLikeAdditions */;
+			targetProxy = EAE9F0A522E37ECD008E4957 /* PBXContainerItemProxy */;
+		};
+		EAE9F0C322E37EF2008E4957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAE9F0B622E37EF2008E4957 /* SublimeLike Xcode Extensions */;
+			targetProxy = EAE9F0C222E37EF2008E4957 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAE9F09B22E37ECD008E4957 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAE9F09C22E37ECD008E4957 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAE9F0AB22E37ECD008E4957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAE9F0AC22E37ECD008E4957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EAE9F0AE22E37ECD008E4957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/SublimeLikeAdditions/SublimeLikeAdditions.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YFZ5LYLJPF;
+				INFOPLIST_FILE = "$(SRCROOT)/SublimeLikeAdditions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jangelsb.sublimelike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EAE9F0AF22E37ECD008E4957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/SublimeLikeAdditions/SublimeLikeAdditions.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YFZ5LYLJPF;
+				INFOPLIST_FILE = "$(SRCROOT)/SublimeLikeAdditions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jangelsb.sublimelike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EAE9F0B122E37ECD008E4957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YFZ5LYLJPF;
+				INFOPLIST_FILE = "Simplicity ActionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jangelsb.Simplicity-ActionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SublimeLikeExtensions.app/Contents/MacOS/SublimeLikeExtensions";
+			};
+			name = Debug;
+		};
+		EAE9F0B222E37ECD008E4957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YFZ5LYLJPF;
+				INFOPLIST_FILE = "Simplicity ActionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jangelsb.Simplicity-ActionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SublimeLikeExtensions.app/Contents/MacOS/SublimeLikeExtensions";
+			};
+			name = Release;
+		};
+		EAE9F0C622E37EF2008E4957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/SublimeLike Xcode Extensions/SublimeLike_Xcode_Extensions.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YFZ5LYLJPF;
+				INFOPLIST_FILE = "$(SRCROOT)/SublimeLike Xcode Extensions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jangelsb.sublimelike.xcext;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EAE9F0C722E37EF2008E4957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/SublimeLike Xcode Extensions/SublimeLike_Xcode_Extensions.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YFZ5LYLJPF;
+				INFOPLIST_FILE = "$(SRCROOT)/SublimeLike Xcode Extensions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jangelsb.sublimelike.xcext;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAE9F08D22E37ECC008E4957 /* Build configuration list for PBXProject "SublimeLikeExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE9F0AB22E37ECD008E4957 /* Debug */,
+				EAE9F0AC22E37ECD008E4957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE9F0AD22E37ECD008E4957 /* Build configuration list for PBXNativeTarget "SublimeLikeAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE9F0AE22E37ECD008E4957 /* Debug */,
+				EAE9F0AF22E37ECD008E4957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE9F0B022E37ECD008E4957 /* Build configuration list for PBXNativeTarget "SublimeLikeExtensionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE9F0B122E37ECD008E4957 /* Debug */,
+				EAE9F0B222E37ECD008E4957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE9F0C522E37EF2008E4957 /* Build configuration list for PBXNativeTarget "SublimeLike Xcode Extensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE9F0C622E37EF2008E4957 /* Debug */,
+				EAE9F0C722E37EF2008E4957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAE9F08A22E37ECC008E4957 /* Project object */;
+}
