@@ -674,7 +674,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="SublimeLikeAdditionsApp" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="SublimeLikeAdditions" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -704,7 +704,7 @@
         <!--View Controller-->
         <scene sceneID="x6D-iJ-aXe">
             <objects>
-                <viewController id="TuZ-2o-P5g" customClass="ViewController" customModule="SublimeLikeAdditionsApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="TuZ-2o-P5g" customClass="ViewController" customModule="SublimeLikeAdditions" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="adq-zE-TOL">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
