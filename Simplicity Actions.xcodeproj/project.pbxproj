@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAC070F122E561C900489327 /* UndoLastMultiCursorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC070F022E561C900489327 /* UndoLastMultiCursorCommand.swift */; };
 		EAE9F09622E37ECC008E4957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9F09522E37ECC008E4957 /* AppDelegate.swift */; };
 		EAE9F09822E37ECC008E4957 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE9F09722E37ECC008E4957 /* ViewController.swift */; };
 		EAE9F09A22E37ECD008E4957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE9F09922E37ECD008E4957 /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EAC070F022E561C900489327 /* UndoLastMultiCursorCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UndoLastMultiCursorCommand.swift; sourceTree = "<group>"; };
 		EAE9F09222E37ECC008E4957 /* Simplicity Actions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simplicity Actions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE9F09522E37ECC008E4957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAE9F09722E37ECC008E4957 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				EAE9F0BE22E37EF2008E4957 /* ToUpperCaseCommand.swift */,
 				EAE9F0CC22E51BF0008E4957 /* ToLowerCaseCommand.swift */,
 				EAE9F0CE22E51CE2008E4957 /* DuplicateSelectionsCommand.swift */,
+				EAC070F022E561C900489327 /* UndoLastMultiCursorCommand.swift */,
 			);
 			path = SourceEditorCommands;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 			files = (
 				EAE9F0BD22E37EF2008E4957 /* SourceEditorExtension.swift in Sources */,
 				EAE9F0BF22E37EF2008E4957 /* ToUpperCaseCommand.swift in Sources */,
+				EAC070F122E561C900489327 /* UndoLastMultiCursorCommand.swift in Sources */,
 				EAE9F0CD22E51BF0008E4957 /* ToLowerCaseCommand.swift in Sources */,
 				EAE9F0CA22E51863008E4957 /* XCSourceEditorCommandInvocation+Commands.swift in Sources */,
 				EAE9F0CF22E51CE2008E4957 /* DuplicateSelectionsCommand.swift in Sources */,

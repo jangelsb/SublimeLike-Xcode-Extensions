@@ -38,6 +38,14 @@
 				</dict>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).UndoLastMultiCursorCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).UndoLastMultiCursorCommand</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Undo Last Multi Cursor</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).ToUpperCaseCommand</string>
 					<key>XCSourceEditorCommandIdentifier</key>
 					<string>$(PRODUCT_BUNDLE_IDENTIFIER).ToUpperCaseCommand</string>
